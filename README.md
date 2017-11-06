@@ -1,2 +1,2 @@
 # example-java
-Neo SmartContract CSharp Example
+Neo SmartContract Java Example
