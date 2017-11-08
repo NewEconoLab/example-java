@@ -51,7 +51,7 @@ dotnet publish -r win7-x86 -c debug
 
 ## 创建智能合约项目
 
-利用 IDEA 开发工具可以很方便的创建自己的 JAVA 工程，你也可以直接 clone 本项目代码作为自己开发项目，然后在 `Project Settings -> Libraries -> New Project Library` 将上一步生成的 `org.neo.smartcontract.framework.jar` 添加到项目中。
+利用 IDEA 开发工具可以很方便的创建自己的 JAVA 工程，你也可以直接 clone 本项目代码作为自己开发项目，然后在 `Project Settings -> Libraries -> New Project Library` 将上一步生成的 `org.neo.smartcontract.framework.jar` 添加到项目中。后续会考虑将framwork统一由maven仓库来管理。
 
 开始书写第一个 HelloWorld.java 代码，示例如下：
 
