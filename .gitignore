@@ -1,3 +1,4 @@
+.out
 .idea
 *.iml
 .settings
@@ -43,4 +44,3 @@ thumbs.db
 .svn
 .CVS
 .idea
-.out

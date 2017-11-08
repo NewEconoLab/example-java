@@ -76,6 +76,8 @@ public class HelloWorld extends SmartContract {
 
 在 IDEA 中点击`Build -> Build Project` 就可以生成 HelloWorld.class 文件。
 
+值得注意的是，代码的入口函数一定要是Main，不能写成小写的main.
+
 ## 编译生成智能合约文件
 
 在终端进入上一步 HelloWorld.class 文件的目录下执行命令即可得到 HelloWorld.avm 文件。
@@ -95,6 +97,7 @@ SUCC
 
 如果提示 `Convert Error:System.IO.FileNotFoundException: Could not find file 'neo-compiler\neoj\bin\Debug\netcoreapp1.1\win7-x86\org.neo.smartcontract.framework.jar'.
 ` 错误信息，则需要手动将之前生成好的 `org.neo.smartcontract.framework.jar` 放至此处，这也是为什么上一步中需要将 maven 打包生成 jar 包重命名的原因。
+
 
 至此则完成了 NEO 智能合约 JAVA 开发环境的搭建。
 
